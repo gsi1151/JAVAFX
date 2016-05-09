@@ -1,0 +1,378 @@
+<resources>
+
+
+    <string name="reiniciar">Reiniciar</string>
+
+    <string name="Evento_Calendario"> Añadir Evento</string>
+    <string name="Listado">Añadir Nota</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="TituloApp">Agenda</string>
+    <string name="no_notes">No hay notas almacenadas</string>
+    <string name="menu_insert">Insertar Nota</string>
+    <string name="note_name"></string>
+    <string name="body">Mensaje</string>
+    <string name="confirm">OK</string>
+    <string name="title">Titulo</string>
+    <string name="menu_delete">Borrar nota</string>
+    <string name="edit_note">Modificar nota</string>
+    <string name="listado_calendario">Listado Calendario</string>
+    <string name="descripcion"> Agenda \n JAVAFX \n UTNG</string>
+    <string name="contenido_acerca">Este juego trata de adivinar una palabra, las palabras son aleatorias.</string>
+    <string name="login">Login</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="vista">Vista</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="registro">Registro</string>
+    <string name="introduccion">Introducción</string>
+    <string name="correo_elec">Correo Electrónico</string>
+    <string name="pass">Password</string>
+    <string name="confim_pass">Confirmar Contraseña</string>
+    <string name="juegoAcabado">Juego terminado</string>
+
+    <string name="jugar_boton">Play 2 Players</string>
+    <string name="configurar">Settings</string>
+    <string name="acercade">About</string>
+    <string name="salir">Exit</string>
+
+    <string name="cruz">Win the Crosses</string>
+
+    <string name="circulo">Win the Circles</string>
+    <string name="jugar_boton_cpu">Play CPU</string>
+
+
+    <string name="nombre">Nombre</string>
+    <string name="cancel">Cancelar</string>
+    <string name="name_app">JAVAFX</string>
+    <string name="nom_usuario">Nombre usuario</string>
+    <string name="name">Nombre</string>
+    <string name="registrate">REGISTRA TUS DATOS:</string>
+    <string name="save">Guardar</string>
+    <string name="back">Regresar</string>
+
+    <string name="str_title_temario">Seleccionar modulo</string>
+    <string name="titulo_actividad_detalle">Actividad De Detalle</string>
+
+    <string name="nombre_transicion_imagen">imagen_compartida</string>
+
+    <string name="info">Campus Dolores\n
+Área Económico Administrativo\n
+Director del área: Hugo Gilberto Carrillo Pérez. hugo.carrillo@utng.edu.mx Ext.1372\n
+    \n
+        Área Tecnologías de la Información y Comunicación\n
+Directora de área: Juana Élida Sanchez Camacho. esanchez@utng.edu.mx Ext.1382\n
+        \n
+        Área Industrial Eléctrica y Electrónica\n
+Directora de área: Cecilia Pénelope García García. ceciliagarcia@utng.edu.mx Ext.1342\n
+        \n
+        \n
+        Técniso Superior Universitario T.S.U
+
+    </string>
+
+    //consultas a la base de datos
+    <string name="str_insert_answer_1">
+        INSERT INTO answers (answer, response) VALUES
+        (\'Utilizado para alterar temporalmente la correlación de un Basic la
+        propiedad o campo o Id de la propiedad o campo?\', \'OVERRIDE\')
+    </string>
+    <string name="str_insert_answer_2">
+        INSERT INTO answers (answer, response) VALUES
+        (\'La presencia de esta anotación en una clase registra automáticamente la clase
+        con el tiempo de ejecución como una clase de bean administrado\', \'MANAGEDBEAN\')
+    </string>
+    <string name="str_insert_answer_3">
+        INSERT INTO answers (answer, response) VALUES
+        (\'Define una asociación de un solo valor a
+        otra entidad que tiene multiplicidad uno-a-uno?\', \'ONETOONE\')
+    </string>
+    <string name="str_insert_answer_4">
+        INSERT INTO answers (answer, response) VALUES
+        (\'Define una asociación de un solo valor a
+        otra clase de entidad que tiene multiplicidad muchos-a-uno?\', \'MANYTOONE\')
+    </string>
+    <string name="str_cuest">Cuestionario</string>
+
+    //muestra las preguntas
+    <string name="str_answer_override">
+        Utilizado para alterar temporalmente la correlación de un Basic la
+        propiedad o campo o Id de la propiedad o campo?
+    </string>
+
+    <string name="str_answer_manytoone">
+        Define una asociación de un solo valor a
+        otra clase de entidad que tiene multiplicidad muchos-a-uno?
+    </string>
+
+    <string name="str_answer_onetoone">
+        Define una asociación de un solo valor a otra
+        entidad que tiene multiplicidad uno-a-uno?
+    </string>
+
+    <string name="str_answer_managedbean">
+        La presencia de esta anotación en una clase registra automáticamente la clase
+        con el tiempo de ejecución como una clase de bean administrado
+    </string>
+    //mas informacion
+    <string name="str_info_many">
+        El ManyToOne anotación se puede utilizar dentro de una clase incrustada para especificar
+        una relación de la clase incrustada a una clase de entidad. Si la relación es bidireccional,
+        el no poseer OneToMany lado entidad debe utilizar el mappedBy elemento de la
+        OneToMany anotación para especificar el campo de relación o la propiedad del
+        campo integrable o propiedad en el lado propietario de la relación.
+        El punto (".") La notación de sintaxis debe ser utilizado en el mappedBy elemento para
+        indicar la relación de atributo en el atributo incorporado.
+        El valor de cada identificador se utiliza con la notación de puntos es el nombre del respectivo campo o propiedad incrustado.
+    </string>
+
+    <string name="str_info_one">
+       El OneToOne anotación se puede utilizar dentro de una clase incrustada para especificar una
+        relación de la clase incrustada a una clase de entidad. Si la relación es bidireccional y
+        la entidad que contiene la clase incrustada está en la parte propietaria de la relación,
+        el lado no poseer debe utilizar el mappedBy elemento de la OneToOne anotación para
+        especificar el campo de relación o la propiedad de la clase incrustada.
+        El punto (".") La notación de sintaxis debe ser utilizado en el mappedBy elemento para
+        indicar la relación de atributo en el atributo incorporado.
+        El valor de cada identificador se utiliza con la notación de puntos es el nombre del respectivo campo o propiedad incrustado.
+    </string>
+
+    <string name="str_info_override">
+        La capacidad de una subclase para reemplazar un método permite que una clase herede de una
+        superclase cuyo comportamiento es "lo suficientemente cerca" y luego para modificar el
+        comportamiento según sea necesario. El método predominante tiene el mismo nombre, el número y
+        tipo de parámetros, y el tipo de retorno como el método de modo que se anulan. Un método de alteración temporal
+        también puede devolver un subtipo del tipo devuelto por el método reemplazado. Este subtipo se denomina un tipo de retorno covariante.
+    </string>
+
+    <string name="str_info_managedbean">
+        La anotación @ManagedBean (javax.faces.bean.ManagedBean) en una clase registra automáticamente
+        esa clase como un recurso con la implementación JavaServer Faces.
+        Un bean gestionado tal registrada no necesita entradas de configuración-bean gestionado
+        en el fichero de configuración de la aplicación.
+    </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="player_error">Error initializing YouTube player</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_acerca_de_scrolling">AcercaDeScrollingActivity</string>
+
+    <string name="str_about">
+        "Desarrollador"
+        "Victor Hugo Grimaldo Molina"
+        "Asignatura"
+        "Desarrollo de aplicaciones III"
+        "Institución de Desarrollo"
+        "Universidad Tecnológica del Norte de Guanajuato"
+        "Bibliografía"
+        ""Manual JAVAFX"
+        "Por:"
+        "Carmelo Navarro Serna "
+        "http://static1.1.sqspcdn.com/static/f/923743/15024995/1320737616283/Manualjavafx.pdf?token=WliVrqXbYW75JEEdISncmQN6TNM%3D"
+        "Audio"
+        "por:"
+        "Edgar Villa"
+        "https://www.youtube.com/watch?v=M-Dt9kstocc"
+        "Videos"
+        "https://www.youtube.com/watch?v=isTyq-Idiu8"
+        "https://www.youtube.com/watch?v=xvXO4ykChHs"
+        "https://www.youtube.com/watch?v=XtMmEbciUwo"
+        "https://www.youtube.com/watch?v=8kekLnSUo4o"
+        "https://www.youtube.com/watch?v=IWsY675Foug"
+    </string>
+
+    <string name="str_inicio">
+         Este tutorial es una recopilación de tres documentos que fueron entregados previamente con el conjunto de la documentación 2.x JavaFX: JavaFX información general(Overview),\n\n
+        Arquitectura de JavaFX (Understanding the JavaFX Architecture) y Primeros pasos con JavaFX (Getting Started with JavaFX).\n\n
+        El contenido combinado se ha mejorado con información actualizada sobre las nuevas características de JavaFX incluido con el lanzamiento de Java SE 8.\n\n
+        JavaFX es un conjunto de gráficos y paquetes de comunicación que permite a los desarrolladores para diseñar, crear, probar,
+        depurar y desplegar aplicaciones cliente enriquecidas que operan constantemente a través de diversas plataformas. \n\n
+        ¿Qué puedo construir una aplicación con JavaFX? \n\n
+        Con JavaFX puedes construir muchos tipos de aplicaciones. Por lo general, son las aplicaciones de red y estas que
+        se implementan a través de múltiples plataformas y mostrar información en una interfaz de usuario moderna de alto
+        rendimiento que cuenta con audio, vídeo, gráficos y animación.\n\n
+          JavaFX Ensemble8 \n\n
+        Ensemble8 es una galería de aplicaciones de ejemplo que muestran una gran variedad de funciones de JavaFX, incluyendo \n
+        la animación, gráficos, y los controles. Usted puede ver e interactuar con cada muestra que se ejecuta en todas \n
+        las plataformas, y leer sus descripciones. En las plataformas de escritorio, puede copiar el código fuente de cada muestra,\n
+        ajustar las propiedades de los componentes de la muestra se utilizan en varias muestras, y siga los enlaces a la documentación\n
+        de la API relevante cuando se está conectado a la Internet.
+
+
+    </string>
+
+    <string name="str_javajpa">¿Qué es JAVAFX?</string>
+    <string name="str_persistencia_text">
+        Los procesos de Prism. Puede funcionar en dos renderizadores de hardware y software, incluyendo 3-D. Es responsable de la rasterización y renderizado
+        de escenas de JavaFX. A continuación múltiples caminos son posibles en función del dispositivo que se utiliza:
+    \n  DirectX 9 en Windows XP y Windows Vista
+    \n  DirectX 11 en Windows 7
+    \n  OpenGL en Mac, Linux, Embedded
+
+
+    </string>
+
+    <string name="str_persistent">ESCENE GRAPH\n\n
+        Es un árbol jerárquico de nodos que representa todos los elementos visuales de la interfaz de usuario
+        de la aplicación. Puede controlar la entrada y puede ser entregado.
+        Un solo elemento en un escenario gráfico(Scene Graph) se denomina nodo. Cada nodo tiene un ID, clase de estilo, y el volumen de delimitación.
+        Con la excepción del nodo raíz de un gráfico de la escena, cada nodo en un gráfico de la escena tiene un solo padre y cero o más hijos.
+        \n\n
+        SYSTEM GRAPH \n\n
+
+
+    </string>
+    /<string name="str_pesisten_types"> Es un detalle de implementación debajo de la capa gráfica escena JavaFX. Es compatible tanto con 2-D y escenarios gráficos en 3-D. Proporciona la
+        representación del software cuando el hardware de gráficos en un sistema es insuficiente para apoyar renderizado acelerado por hardware.
+        Dos ductos de aceleración de gráficos se implementan en la plataforma JavaFX:  \n
+    \n  Software de representación cuando la aceleración de hardware no es posible
+    \n  El hardware da vía de acceso completamente acelerado se utiliza siempre que sea posible, pero cuando no esté disponible, el software se utiliza path porque el software
+        ya se distribuye en todos los entornos de ejecución Java (JRE). Esto es particularmente importante cuando manejan escenas 3-D. Sin embargo, el rendimiento es mejor cuando el hardware se utilizan estos path.
+    \n  Quantum Toolkit une Prism y Glass Windowing Toolkit juntos y los pone a disposición de la capa de JavaFX por encima de ellos en la pila. También gestiona las normas
+        vinculadas a la prestación de enhebrado contra el control de eventos.
+    </string>
+        <string name="str_orm">Hola Mundo al estilo JavaFX
+        La mejor manera de enseñarle lo que es crear y construir una aplicación JavaFX es con una aplicación "Hola Mundo".
+        Un beneficio adicional de este tutorial es que le permite probar que su tecnología JavaFX se ha instalado correctamente.
+    </string>
+    <string name="str_types_raltions"> El sistema ejecuta dos o más de los siguientes hilos en un momento dado:  \n
+        JavaFX application thread: Este es el hilo principal utilizado por los desarrolladores de aplicaciones JavaFX.\n
+        Prism render thread: Este thread se encarga de la representación por separado del distribuidor de eventos(EDT). Permite la trama(frame) N se represente mientras que la trama N +1 se está procesando.\n
+        Media thread: Este se ejecuta en segundo plano y sincroniza los últimos frames a través del escenario gráfico utilizando el subproceso de la aplicación JavaFX.\n\n
+        Pulse(Pulsaciones) \n\n
+        Un pulso es un evento que indica al escenario gráfico JavaFX que es hora de sincronizar el estado de los elementos en el escenario gráfico con el hilo Prism. Un pulso es regulado a 60 frames por segundo (fps) como máximo y se dispara cada vez que las animaciones se ejecutan en el escenario gráfico.\n\n
+    </string>
+
+    <string name="str_entities_text">Hojas de estilo en cascada CSS
+        Ofrece la posibilidad de aplicar un estilo personalizado a la interfaz de usuario de una aplicación
+        JavaFX sin cambiar ningún de código fuente de la aplicación. CSS se puede aplicar a cualquier
+        nodo en el gráfico de la escena JavaFX y se aplica a los nodos de forma asincrónica.
+        Estilos CSS JavaFX también pueden ser fácilmente asignados a la escena en tiempo de ejecución,
+        lo que permite la aparición de una aplicación para cambiar dinámicamente.\n\n
+
+        JavaFX CSS se basa en el W3C CSS versión 2.1 especificaciones, con algunas adiciones de trabajo
+        actual de la versión 3. El soporte y las extensiones en JavaFX CSS se han diseñado para permitir
+        que las hojas de estilo CSS para JavaFX pueden analizarse limpiamente por cualquier analizador
+        sintáctico CSS, incluso uno que no admite extensiones de JavaFX. Esto permite que la mezcla de
+        estilos CSS para JavaFX y para otros fines (por ejemplo, para las páginas HTML) en una única hoja
+        de estilo. Todos los nombres de propiedades JavaFX están prefijados con una extensión de proveedor
+        de "-fx-", incluidas las que pudieran parece compatible con el CSS HTML estándar, debido a que algunos
+        valores de JavaFX tienen una semántica ligeramente diferente.
+    </string>
+
+    <string name="str_key_text">package holamundo;\n
+        import javafx.application.Application;\n
+        import javafx.event.ActionEvent;\n
+        import javafx.event.EventHandler;\n
+        import javafx.scene.Scene;\n
+        import javafx.scene.control.Button; \n
+        import javafx.scene.layout.StackPane;
+        import javafx.stage.Stage;\n
+        public class HolaMundo extends Application {\n
+            @Override     public void start(Stage stage) {v
+                                Button boton = new Button();\n\n
+                                    boton.setText("Di 'Hola Mundo'");
+                                    boton.setOnAction(new EventHandler ActionEvent>() {\n
+            @Override      public void handle(ActionEvent event) {\n
+                                    System.out.println("Hola Mundo!");\n
+                                                                    }\n
+                            });\n
+                            StackPane layout = new StackPane();\n
+                            layout.getChildren().add(boton);\n
+                            Scene escena = new Scene(layout, 300, 250);\n
+                            stage.setTitle("Hola Mundo!");\n
+                            stage.setScene(escena);\n
+                            stage.show();\n
+            }\n
+        public static void main(String[] args) {\n
+                launch(args);\n
+        }\n
+        }\n
+        \n
+        La clase principal para una aplicación JavaFX amplía(extends) la clase javafx.application.Application. El método start() es el principal punto de entrada para todas las aplicaciones JavaFX.\n\n
+        Una aplicación JavaFX define el contenedor(container) de interfaz de usuario(UI) por medio de una etapa(Stage) y una escena(Scene). La clase de JavaFX “Stage” es el contenedor JavaFX de nivel superior. La clase de JavaFX “Scene” es el contenedor de todo el contenido.\n\n
+        En JavaFX, el contenido de la escena se representa como un gráfico de la escena jerárquica de nodos. En este ejemplo, el nodo raíz es un objeto StackPane, que es un nodo de diseño(layout) de tamaño variable.\n\n
+        El nodo raíz contiene un nodo hijo, un control de botón con texto, además de un controlador de eventos para imprimir un mensaje cuando se pulsa el botón.\n\n
+        El método main() no es necesario para las aplicaciones JavaFX cuando se crea el archivo JAR para la aplicación con la herramienta de JavaFX Packager que incrusta el Lanzador JavaFX(JavaFX Launcher) en el archivo JAR.
+
+
+    </string>
+
+    <string name="str_primary_key">Codigo Hola Mundo</string>
+    <string name="str_relation_entities">HILOS(THREADS)</string>
+    <string name="str_entities">Hojas de estilo CCS</string>
+    <string name="str_video">Video</string>
+    <string name="intent">"Intento(s) "</string>
+    <string name="send_email">Enviar Email</string>
+    <string name="game_memorama">Juego Memorama</string>
+    <string name="generate">Generar</string>
+    <string name="galery_jpa">Galeria</string>
+    <string name="galery_utng">Galeria UTNG</string>
+    <string name="seleccted_teme">Selecciona un tema</string>
+    <string-array name="type">
+        <item>Nuevo Juego</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+        <item>5 X 6</item>
+        <item>6 X 6</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
+
